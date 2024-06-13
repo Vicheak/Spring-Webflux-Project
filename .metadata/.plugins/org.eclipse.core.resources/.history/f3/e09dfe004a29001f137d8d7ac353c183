@@ -1,0 +1,8 @@
+package com.vicheak.java.spring_webflux_demo.dto;
+
+public class InputFailedResponseDTO {
+	
+	private static final int ErrorCode = 100;
+	
+
+}

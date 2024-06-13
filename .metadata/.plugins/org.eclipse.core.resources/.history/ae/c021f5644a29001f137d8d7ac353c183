@@ -1,0 +1,10 @@
+package com.vicheak.java.spring_webflux_demo.exception;
+
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+public class InputFailedValidationException extends RuntimeException {
+	
+	
+
+}

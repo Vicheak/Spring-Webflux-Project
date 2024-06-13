@@ -1,0 +1,5 @@
+package com.vicheak.java.spring_webflux_demo.exception;
+
+public class InputFailedValidationException {
+
+}

@@ -1,0 +1,15 @@
+package com.vicheak.java.spring_webflux_demo.exceptionhandler;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import com.vicheak.java.spring_webflux_demo.dto.InputFailedResponseDTO;
+
+@RestControllerAdvice
+public class InputFailedExceptionHandler {
+	
+	public ResponseEntity<InputFailedResponseDTO> handler(){
+		
+	}
+
+}

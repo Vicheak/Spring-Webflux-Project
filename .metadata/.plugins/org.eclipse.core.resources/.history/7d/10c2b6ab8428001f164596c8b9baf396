@@ -1,0 +1,10 @@
+package com.vicheak.java.spring_webflux_demo.dto;
+
+import java.time.LocalDate;
+
+public class ResponseDTO {
+	
+	private LocalDate date; 
+	private int result; 
+
+}

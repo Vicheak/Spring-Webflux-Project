@@ -1,0 +1,9 @@
+package com.vicheak.java.spring_webflux_demo.dto;
+
+public class InputFailedResponseDTO {
+	
+	private static final int ERROR_CODE = 100;
+	private static final String MESSAGE = "Allowed range is between 10 - 20"; 
+	private int input; 
+
+}

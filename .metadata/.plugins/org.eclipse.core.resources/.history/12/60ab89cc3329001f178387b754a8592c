@@ -1,0 +1,23 @@
+package com.vicheak.java.spring_webflux_demo.service;
+
+import org.springframework.stereotype.Service;
+
+import com.vicheak.java.spring_webflux_demo.dto.ResponseDTO;
+
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+
+@Service
+public class ReactiveMathService {
+	
+	public Mono<ResponseDTO> findSquare(int input){
+		return Mono.fromSupplier(() -> input * input)
+				.map(x -> new ResponseDTO(x)); 
+	}
+	
+	public Flux<ResponseDTO> multiplicationTable(int input){
+		return Flux.range(1, 10)
+				.map(x -> new ResponseDTO(x * input));
+	}
+
+}

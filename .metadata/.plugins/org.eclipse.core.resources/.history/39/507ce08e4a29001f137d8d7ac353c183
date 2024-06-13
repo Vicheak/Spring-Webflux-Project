@@ -1,0 +1,9 @@
+package com.vicheak.java.spring_webflux_demo.dto;
+
+public class InputFailedResponseDTO {
+	
+	private int errorCode; 
+	private String message; 
+	
+
+}

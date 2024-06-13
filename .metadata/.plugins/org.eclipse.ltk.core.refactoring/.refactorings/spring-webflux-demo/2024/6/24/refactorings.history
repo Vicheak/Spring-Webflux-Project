@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MathController.java&apos; to &apos;com.vicheak.java.spring_webflux_demo.controller.MathController.java&apos;&#x0A;- Original project: &apos;spring-webflux-demo&apos;&#x0A;- Destination element: &apos;com.vicheak.java.spring_webflux_demo.controller.MathController.java&apos;&#x0A;- Original element: &apos;com.vicheak.java.spring_webflux_demo.controller.MathController.java&apos;" description="Copy compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.vicheak.java.spring_webflux_demo.controller{MathController.java" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.vicheak.java.spring_webflux_demo.controller{MathController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1718248848136" units="1" version="1.0"/>
+</session>

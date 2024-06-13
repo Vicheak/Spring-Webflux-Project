@@ -1,0 +1,14 @@
+package com.vicheak.java.spring_webflux_demo.service;
+
+import org.springframework.stereotype.Service;
+
+import com.vicheak.java.spring_webflux_demo.dto.ResponseDTO;
+
+@Service
+public class MathService {
+	
+	public ResponseDTO findSquare(int input) {
+		return new ResponseDTO(input * input); 
+	}
+
+}

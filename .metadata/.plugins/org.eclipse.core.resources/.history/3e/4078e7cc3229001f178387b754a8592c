@@ -1,0 +1,18 @@
+package com.vicheak.java.spring_webflux_demo.dto;
+
+import java.time.LocalDate;
+
+import lombok.Data;
+
+@Data
+public class ResponseDTO {
+	
+	private LocalDate date; 
+	private int result;
+	
+	public ResponseDTO(int result) {
+		this.date = LocalDate.now(); 
+		this.result = result; 
+	}
+
+}

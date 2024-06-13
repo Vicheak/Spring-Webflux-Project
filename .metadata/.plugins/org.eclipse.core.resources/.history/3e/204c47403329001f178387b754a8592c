@@ -1,0 +1,8 @@
+package com.vicheak.java.spring_webflux_demo.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class ReactiveMathService {
+
+}
